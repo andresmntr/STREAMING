@@ -3,7 +3,7 @@
 
 Proyecto de la **Práctica 3** de la asignatura de **Integración de Redes, Aplicaciones y Contenidos**: ***DASH*** . Consiste en crear un servicio streaming y familiriacizarse con las distintas técnicas de mejora de calidad percibida por el usuario y de gestión de derechos digitales (DRM). Este repositorio consta de 5 ramas, una para cada parte de la práctica y la rama final que contendrá el resultado final.
 
-<center>
+<div align="center">
 
 | **Autores** |
 |-------------|
@@ -12,7 +12,7 @@ Proyecto de la **Práctica 3** de la asignatura de **Integración de Redes, Apli
 | Juan Lluva Llord |
 | Martín Collado Pérez |
 
-</center>
+</div>
 
 
 ##  Para desplegar la app final
@@ -61,11 +61,11 @@ $ python -m http.server 8080
 
   
 
--  [x] Implementación del cliente web [(index.html)](https://github.com/pablolostao/IRAC-P3/blob/Andrew/index.html) para la visualización del vídeo ofrecido por envivo a través del documneto MPD indicado previamente.
+-  [x] Implementación del cliente web ([app](https://github.com/andresmntr/STREAMING/tree/parte-1/app)) para la visualización del vídeo ofrecido por envivo a través del documneto MPD indicado previamente.
 
-- [ ] Análisis y explicación del documento MPD
+-  [x] Análisis y explicación del documento MPD (en la memoria).
 
--  [x] Captura de pantalla del cliente para visualizar el comportamiento de MPEG-DASH y su explicación.
+-  [x] Capturas de pantalla del cliente para visualizar el comportamiento de MPEG-DASH y su explicación.
 
   
 
