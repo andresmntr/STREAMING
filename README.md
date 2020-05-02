@@ -54,14 +54,13 @@ Por último y para verlo más claro, quitamos la limitación de altura estableci
 
 En el siguiente diagrama vemos este efecto producido al bajar la velocidad de bajada y no tener una altura fijada en el css. Se expone secuencialmente de izquierda a derecha.
 
-
-
+<br/>
 
 <p align="center">
   <img src="/img/Resolutions.png" alt="CSS-height-variable" width=800>
 </p>
 
-
+<br/>
 
 ___
 
