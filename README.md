@@ -22,7 +22,7 @@
 
 ###  Generación del documento MPD
 
-[scripts/MPD]()
+[/scripts/MPD]()
 
 
 ###  Comportamiento MPEG-DASH
