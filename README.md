@@ -55,10 +55,9 @@ Por último y para verlo más claro, quitamos la limitación de altura estableci
 En el siguiente diagrama vemos este efecto producido al bajar la velocidad de bajada y no tener una altura fijada en el css. Se expone secuencialmente de izquierda a derecha.
 
 <p align="center">
-  <img src="/img/NoCSSheightLimitation.png" alt="CSS-height-variable" width=800>
+  <img src="/img/Resolutions.png" alt="CSS-height-variable" width=800>
 </p>
 
 ___
 
-Muy bonito todo. Mola tío.
 En la siguiente parte generaremos las distintas configuraciones a partir de un vídeo y sus respectivos archivos MPD.
