@@ -18,7 +18,7 @@ Podemos obserbar el código fuente generado para la implementación de la parte 
 
 Se proporciona un análisis y explicación del [documento MPD](https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd) utilizado. Este documento ofrecido por ***envivo*** es el que nos proporciona el vídeo visualizado en esta parte de la práctica.
 
-###  Comportamiento MPEG-DASH
+###  Comportamiento MPEG-DASH
 
 En las siguientes capturas somos capaces de observar el comportamiento producido por MPEG-DASH para escenarios con distintas velocidades de descarga.
 
