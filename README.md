@@ -17,7 +17,9 @@
 
 ###  Codificación de un vídeo en distintas calidades
 
-[/scripts/configuraciones]()
+[Script finales]() para la generación de las configuraciones.
+
+
 
 
 ###  Generación del documento MPD
