@@ -1,10 +1,9 @@
 
 # environment dependencies
-/app/Pipfile
-/bento4/Pipfile
+*/Pipfile
 
 # video archives
-/videos
+/videos/*.mp4
 
 # misc
 .DS_Store
