@@ -73,13 +73,13 @@ $ python -m http.server 8080
 
   
 
-- [ ] Codificación de un vídeo en, mínimo, tres calidades diferentes
+- [x] Codificación de un vídeo en, mínimo, tres calidades diferentes
 
-- [ ] Preparación de los vídeos para su presentación DASH: explicación de los comandos/herramientas utilizados y explicación del documento MPD resultante;
+- [x] Preparación de los vídeos para su presentación DASH: explicación de los comandos/herramientas utilizados y explicación del documento MPD resultante;
 
-- [ ] Captura de pantalla del inspector del cliente (pestaña de Red) para visualizar el comportamiento de MPEG-DASH y explicación de la captura con relación al fichero MPD;
+- [x] Captura de pantalla del inspector del cliente (pestaña de Red) para visualizar el comportamiento de MPEG-DASH y explicación de la captura con relación al fichero MPD;
 
-- [ ] Captura de pantalla de los mensajes ofrecidos por el servidor y explicación general de dichos mensajes.
+- [x] Captura de pantalla de los mensajes ofrecidos por el servidor y explicación general de dichos mensajes.
 
   
 
