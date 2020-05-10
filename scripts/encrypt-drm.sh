@@ -1,0 +1,5 @@
+../bento4/bin/mp4encrypt --method MPEG-CENC --key 1:87237D20A19F58A740C05684E699B4AA:random --property 1:KID:A16E402B9056E371F36D348AA62BB749 --global-option mpeg-cenc.eme-pssh:true ../videos/low_config_fragments.mp4 ../videos/Low_config_fragments_encrypted.mp4 
+../bento4/bin/mp4encrypt --method MPEG-CENC --key 1:87237D20A19F58A740C05684E699B4AA:random --property 1:KID:A16E402B9056E371F36D348AA62BB749 --global-option mpeg-cenc.eme-pssh:true ../videos/medium_config_fragments.mp4 ../videos/Medium_config_fragments_encrypted.mp4 
+../bento4/bin/mp4encrypt --method MPEG-CENC --key 1:87237D20A19F58A740C05684E699B4AA:random --property 1:KID:A16E402B9056E371F36D348AA62BB749 --global-option mpeg-cenc.eme-pssh:true ../videos/high_config_fragments.mp4 ../videos/High_config_fragments_encrypted.mp4
+
+../bento4/bin/mp4dash ../videos/Low_config_fragments_encrypted.mp4 ../videos/Medium_config_fragments_encrypted.mp4 ../videos/High_config_fragments.mp4 --output-dir ../app/output2
