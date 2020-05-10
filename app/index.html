@@ -37,10 +37,19 @@
     document.addEventListener("DOMContentLoaded", function () {
         init();
     });
+
+    async function getKeys() {
+        let response = await fetch(`http://localhost:3000/keys`);
+        let data = await response.json()
+        return data;
+    }
+
     function init() {
+        let protData = await getKeys();
+
         let video,
             player,
-            mpd_url = "./output/stream.mpd"
+            mpd_url = "./output2/stream.mpd"
             player = dashjs.MediaPlayerFactory.create(document.querySelector(".dashjsplayer"));
 
         video = document.querySelector("video");
