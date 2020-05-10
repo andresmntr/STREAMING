@@ -4,6 +4,7 @@
 
 # video archives
 videos
+app/output
 
 # misc
 .DS_Store
