@@ -38,14 +38,14 @@
         init();
     });
 
-    async function getKeys() {
-        let response = await fetch(`http://localhost:3000/keys`);
-        let data = await response.json()
-        return data;
-    }
-
     function init() {
-        let protData = await getKeys();
+        const protData = {
+          'org.w3.clearkey': {
+            clearkeys: {
+              oW5AK5BW43HzbTSKpiu3SQ: 'hyN9IKGfWKdAwFaE5pm0qg'
+            }
+          }
+        };
 
         let video,
             player,
