@@ -1,6 +1,7 @@
 
 # environment dependencies
 */Pipfile
+*/node_modules
 
 # video archives
 videos
