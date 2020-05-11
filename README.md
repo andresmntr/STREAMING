@@ -73,13 +73,13 @@ $ python -m http.server 8080
 
   
 
-- [ ] Codificación de un vídeo en, mínimo, tres calidades diferentes
+- [x] Codificación de un vídeo en, mínimo, tres calidades diferentes
 
-- [ ] Preparación de los vídeos para su presentación DASH: explicación de los comandos/herramientas utilizados y explicación del documento MPD resultante;
+- [x] Preparación de los vídeos para su presentación DASH: explicación de los comandos/herramientas utilizados y explicación del documento MPD resultante;
 
-- [ ] Captura de pantalla del inspector del cliente (pestaña de Red) para visualizar el comportamiento de MPEG-DASH y explicación de la captura con relación al fichero MPD;
+- [x] Captura de pantalla del inspector del cliente (pestaña de Red) para visualizar el comportamiento de MPEG-DASH y explicación de la captura con relación al fichero MPD;
 
-- [ ] Captura de pantalla de los mensajes ofrecidos por el servidor y explicación general de dichos mensajes.
+- [x] Captura de pantalla de los mensajes ofrecidos por el servidor y explicación general de dichos mensajes.
 
   
 
@@ -87,13 +87,13 @@ $ python -m http.server 8080
 
   
 
-- [ ] Encriptación de un vídeo en, mínimo, tres calidades diferentes, y explicación del comando/herramienta utilizado para ello;
+- [x] Encriptación de un vídeo en, mínimo, tres calidades diferentes, y explicación del comando/herramienta utilizado para ello;
 
-- [ ] Segmentación de los vídeos y explicación de los comandos/herramientas utilizados, así como del documento MPD resultante;
+- [x] Segmentación de los vídeos y explicación de los comandos/herramientas utilizados, así como del documento MPD resultante;
 
-- [ ] Captura de pantalla del cliente para visualizar el comportamiento de MPEG-DASH con DRM;
+- [x] Captura de pantalla del cliente para visualizar el comportamiento de MPEG-DASH con DRM;
 
-- [ ] Realizar una alteración de las claves especificadas en protData para visualizar lo que ocurre cuando no se tiene acceso a un vídeo encriptado. Será necesario recoger los mensajes de error ofrecidos por el navegador (Firefox) a través de su consola.
+- [x] Realizar una alteración de las claves especificadas en protData para visualizar lo que ocurre cuando no se tiene acceso a un vídeo encriptado. Será necesario recoger los mensajes de error ofrecidos por el navegador (Firefox) a través de su consola.
 
   
 
@@ -101,13 +101,13 @@ $ python -m http.server 8080
 
   
 
-- [ ] Visualización de las métricas mediante gráficos;
+- [x] Visualización de las métricas mediante gráficos;
 
 - [ ] Utilización de otro modelo o método de encriptación para la gestión de DRM (widevine, PlayReady, etc.);
 
-- [ ] Gestión dinámica de las claves de acceso a contenido DRM mediante la implementación de una API REST;
+- [x] Gestión dinámica de las claves de acceso a contenido DRM mediante la implementación de una API REST;
 
-- [ ] Cualquier otra mejora diferente que el grupo de trabajo estime oportuna y sea aprobada por el equipo docente (se deberá consultar con el equipo docente ANTES de proceder a su realización).
+- [x] Cualquier otra mejora diferente que el grupo de trabajo estime oportuna y sea aprobada por el equipo docente (se deberá consultar con el equipo docente ANTES de proceder a su realización). --> Raspi and shellscripts.
 
 ---
 <center>
