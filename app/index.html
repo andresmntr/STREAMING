@@ -27,13 +27,55 @@
     <span id="stats"></span>
     <script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
   </body>
+  <div class="metrics-charts">
+      <canvas id="bitrateChart"></canvas>
+      <canvas id="bufferChart"></canvas>
+  </div>
   <footer>
     <h6>Andrés Montero Ranc</h6>
     <h6>Juan Lluva Llord</h6>
     <h6>Pablo Lostao Fernández</h6>
     <h6>Martín Collado</h6>
   </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 <script>
+    var bitrateItem = document.getElementById('bitrateChart').getContext('2d');
+    var bufferItem = document.getElementById('bufferChart').getContext('2d');
+    
+    // bitrate chart
+    var bitrateChart = new Chart(bitrateItem, {
+        type: 'line',
+        data: {
+          labels: [0],
+          datasets: [{
+              label: 'Bitrate',
+              backgroundColor: 'transparent',
+              borderColor: '#ff7063',
+              data: [0]
+              }]
+          }
+    });
+    // buffer chart
+    var bufferChart = new Chart(bufferItem, {
+        type: 'line',
+        data: {
+          labels: [0],
+          datasets: [{
+              label: 'Buffer',
+              backgroundColor: 'transparent',
+              borderColor: '#638fff',
+              data: [0]
+              }]
+          }
+    });
+    function addData(chart,label, data) {
+        chart.data.labels.push(label);
+        chart.data.datasets.forEach((dataset) => {
+          dataset.data.push(data);
+        });
+        chart.update();   
+    }
+
     document.addEventListener("DOMContentLoaded", function () {
         init();
     });
@@ -70,6 +112,8 @@
                 var repSwitch = dashMetrics.getCurrentRepresentationSwitch('video', true); 
                 var bufferLevel = dashMetrics.getCurrentBufferLevel('video', true); 
                 var bitrate = repSwitch ? Math.round(dashAdapter.getBandwidthForRepresentation(repSwitch.to, periodIdx) / 1000) : NaN; 
+                addData(bitrateChart, '', bitrate);
+                addData(bufferChart, '', bufferLevel);
                 document.getElementById('buffer').innerText = bufferLevel + " secs"; 
                 document.getElementById('bitrate').innerText = bitrate + " Kbps"; 
                 document.getElementById('representation').innerText = repSwitch.to; 
@@ -77,4 +121,5 @@
         }, 500);
     };
 </script>
+
 </html>
