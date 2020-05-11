@@ -8,9 +8,9 @@
 
 - [x] Segmentación de los vídeos y explicación de los comandos/herramientas utilizados, así como del documento MPD resultante;
 
-- [ ] Captura de pantalla del cliente para visualizar el comportamiento de MPEG-DASH con DRM;
+- [x] Captura de pantalla del cliente para visualizar el comportamiento de MPEG-DASH con DRM;
 
-- [ ] Realizar una alteración de las claves especificadas en protData para visualizar lo que ocurre cuando no se tiene acceso a un vídeo encriptado. Será necesario recoger los mensajes de error ofrecidos por el navegador (Firefox) a través de su consola.
+- [x] Realizar una alteración de las claves especificadas en protData para visualizar lo que ocurre cuando no se tiene acceso a un vídeo encriptado. Será necesario recoger los mensajes de error ofrecidos por el navegador (Firefox) a través de su consola.
 
 ---
 
