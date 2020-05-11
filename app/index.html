@@ -80,14 +80,13 @@
         init();
     });
 
-    function init() {
-        const protData = {
-          'org.w3.clearkey': {
-            clearkeys: {
-              oW5AK5BW43HzbTSKpiu3SQ: 'hyN9IKGfWKdAwFaE5pm0qg'
-            }
-          }
-        };
+    async function getKeys() {
+        let response = await fetch(`http://localhost:3000/keys`);
+        return await response.json();
+    }
+
+    async function init() {
+        let protData = await getKeys();
 
         let video,
             player,
